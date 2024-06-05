@@ -17,7 +17,7 @@ git push origin nombre-de-tu-rama
 ```
 # 2. Crear Ramas para los colaboradores
 
-## Maria Nelly
+## Nelly
 ```sh
     git checkout -b nely
     git push origin nely
