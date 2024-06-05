@@ -28,12 +28,12 @@ git push origin nombre-de-tu-rama
     git checkout -b mary
     git push origin mary
 ```
-
+## Richard
 ```sh
     git checkout -b richard
     git push origin richard
 ```
-
+## Peter
 ```sh
     git checkout -b peter
     git push origin peter
