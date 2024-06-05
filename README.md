@@ -15,7 +15,7 @@ git checkout -b nombre-de-tu-rama
 git push origin nombre-de-tu-rama
 
 ```
-# Crear Ramas para los colaboradores
+# 2. Crear Ramas para los colaboradores
 
 ## Maria Nelly
 ```sh
