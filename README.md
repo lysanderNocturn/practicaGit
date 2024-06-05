@@ -1,2 +1,2 @@
 # practicaGit
-practicas usando git y ramas
+practicas usando git y ramas 
