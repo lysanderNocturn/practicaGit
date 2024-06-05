@@ -62,7 +62,33 @@
             </div>
         </div>
     </div>
-
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            var card = document.getElementById('card');
+            var redRange = document.getElementById('red');
+            var greenRange = document.getElementById('green');
+            var blueRange = document.getElementById('blue');
+            var colorCodesDiv = document.getElementById('colorCodes');
+            
+            function updateColor() {
+                var redValue = redRange.value;
+                var greenValue = greenRange.value;
+                var blueValue = blueRange.value;
+                
+                card.style.backgroundColor = 'rgb(' + redValue + ', ' + greenValue + ', ' + blueValue + ')';
+                
+                // Actualizamos la etiqueta con los códigos de color seleccionados
+                colorCodesDiv.innerText = 'Código de color: RGB(' + redValue + ', ' + greenValue + ', ' + blueValue + ')';
+            }
+            
+            redRange.addEventListener('input', updateColor);
+            greenRange.addEventListener('input', updateColor);
+            blueRange.addEventListener('input', updateColor);
+            
+            // Inicializamos el color y los códigos de color al cargar la página
+            updateColor();
+        });
+    </script>
    
 </body>
 </html>
