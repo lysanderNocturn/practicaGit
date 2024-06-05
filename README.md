@@ -38,3 +38,4 @@ git push origin nombre-de-tu-rama
     git checkout -b peter
     git push origin peter
 ```
+----------------------------
