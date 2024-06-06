@@ -1,4 +1,4 @@
-# practicaGit,la tercera es la vencida n.n
+# practicaGit,la tercera es la vencida 
 practicas usando git y ramas 
 
 # Cómo crear una rama en GitHub
